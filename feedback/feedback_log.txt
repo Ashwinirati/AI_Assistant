@@ -1,0 +1,94 @@
+Summarize this: [user text] | yes
+Write a short story about a dragon... | nohi | 
+hi | 
+What is the capital of France? | 
+What is the capital of France? | yes
+hi | 
+What is the capital of France? | yes
+hi | yes
+hi | yes
+hi | yes
+hi | yes
+hi | yes
+hi | yes
+what is capital of india? | yes
+write poem on mother | 
+hi | 
+write poem on sister
+
+ | yes
+write poem on sister
+
+ | yes
+write poem on sister | 
+write poem on sister | 
+write poem on sister | 
+write poem on sister | 
+write article on present trend in technology | 
+Summarize the following article: [Introduction
+
+In today’s digital era, technology connects every part of our lives — from online banking and e-commerce to education and healthcare. However, this growing dependence on technology has also increased the risk of cyber threats. Cyber security technology plays a vital role in protecting data, systems, and networks from unauthorized access, attacks, and damage. It ensures the confidentiality, integrity, and availability of information in the digital world.
+
+What is Cyber Security?
+
+Cyber security refers to the practice of defending computers, servers, mobile devices, networks, and data from malicious attacks. It involves using advanced technologies, processes, and policies to prevent, detect, and respond to cyber threats such as hacking, phishing, malware, and ransomware.
+
+Major Types of Cyber Security Technologies
+
+Network Security
+Protects internal networks from intruders by securing both hardware and software. Techniques include firewalls, intrusion detection systems (IDS), and virtual private networks (VPNs).
+
+Application Security
+Focuses on keeping software and apps free from threats. It includes encryption, secure coding, and regular updates to remove vulnerabilities.
+
+Cloud Security
+As more data is stored in cloud services, cloud security tools such as multi-factor authentication (MFA), data encryption, and secure access control help prevent unauthorized access.
+
+Endpoint Security
+Protects individual devices like laptops and smartphones through antivirus software, firewalls, and device management systems.
+
+Artificial Intelligence (AI) in Cyber Security
+AI and machine learning are used to detect unusual patterns and predict potential attacks. They help automate the process of threat detection and response.
+
+Blockchain Security
+Blockchain ensures data integrity by using decentralized and tamper-proof ledgers, making it useful in secure transactions and identity management.
+
+Common Cyber Threats
+
+Phishing: Fake emails or websites tricking users into revealing personal information.
+
+Malware: Malicious software designed to damage or gain access to systems.
+
+Ransomware: Locks a user’s data and demands payment to restore access.
+
+Denial of Service (DoS) Attacks: Floods a system or website, making it unavailable to users.
+
+Data Breaches: Unauthorized access to sensitive personal or organizational data.
+
+Importance of Cyber Security
+
+Protects sensitive data from theft and misuse.
+
+Prevents financial losses due to cyber crimes.
+
+Maintains user trust in digital systems and online platforms.
+
+Supports national security by preventing cyber warfare and espionage.
+
+Ensures business continuity by avoiding disruptions caused by cyberattacks.
+
+Future of Cyber Security
+
+With rapid technological advancement, cyber threats are becoming more complex. The future of cyber security lies in:
+
+AI-powered threat intelligence
+
+Quantum encryption for stronger data protection
+
+Zero Trust Security Models that verify every access request
+
+Cyber awareness programs to educate users
+
+Conclusion
+
+Cyber security technology is no longer optional—it is essential for individuals, businesses, and governments alike. As digital transformation accelerates, investing in modern cyber security measures and developing skilled professionals in this field will be crucial to building a safe and resilient digital future.] | yes

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Assistant 🤖</h1>
+
+        <form method="POST">
+            <textarea name="user_input" placeholder="Type your message..." required></textarea>
+            <select name="function">
+                <option value="question">Answer Question</option>
+                <option value="summarize">Summarize Text</option>
+                <option value="creative">Creative Content</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+
+        <div class="chat-box">
+            {% for message in chat_history %}
+                <div class="message {{ message.role }}">
+                    <strong>{{ message.role.capitalize() }}:</strong> {{ message.content }}
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if chat_history and chat_history[-1].role == "assistant" %}
+        <form method="POST" action="/feedback" class="feedback-form">
+            <label>Was this response helpful?</label>
+            <button name="feedback" value="yes">👍 Yes</button>
+            <button name="feedback" value="no">👎 No</button>
+        </form>
+        {% endif %}
+    </div>
+</body>
+</html>

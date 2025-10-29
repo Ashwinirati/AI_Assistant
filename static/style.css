@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.chat-box {
+    margin-top: 20px;
+}
+
+.message {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.message.user {
+    background-color: #e0f7fa;
+    text-align: right;
+}
+
+.message.assistant {
+    background-color: #fce4ec;
+    text-align: left;
+}
+
+.feedback-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.feedback-form button[value="yes"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.feedback-form button[value="no"] {
+    background-color: #f44336;
+    color: white;
+}
